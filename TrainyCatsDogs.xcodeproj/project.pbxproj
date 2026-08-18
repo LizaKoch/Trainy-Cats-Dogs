@@ -1,0 +1,523 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0531CB268F4E215FE7FE7D69 /* DogOnboardingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DE7E3F8CCA53D77EA6D1CB3 /* DogOnboardingView.swift */; };
+		066968B1DD99871CCFB77243 /* GoogleSignIn in Frameworks */ = {isa = PBXBuildFile; productRef = 265C0C5D5379DB3EE7220FBC /* GoogleSignIn */; };
+		0F5497EAED55FB6533EFAB89 /* FirebaseCore in Frameworks */ = {isa = PBXBuildFile; productRef = EFE85B5AF4A1A7A8E6757ED2 /* FirebaseCore */; };
+		11D4C713B078899FF477F538 /* TrainingSessionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3EB5CA525C6E74DD13C8D0E /* TrainingSessionView.swift */; };
+		12CDF4ACFA6AE09A05920B1E /* FirebaseFirestore in Frameworks */ = {isa = PBXBuildFile; productRef = 60005AE88DC92DACCD5D24BE /* FirebaseFirestore */; };
+		26DE6D173A0F3ECBBA2290DC /* Theme.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DA9C1044B6C06F5714C2A1A /* Theme.swift */; };
+		2BBC12B23C0C60E92FE2BC69 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EC17CF48FFB12B58ADA4A68 /* LoginView.swift */; };
+		2E1CA4D1444DD8B428674AEE /* TrainyCatsDogsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21362F923031C3D3EE53E226 /* TrainyCatsDogsApp.swift */; };
+		36C0A84C4548ED049D099257 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC766178BE819B80F577B06A /* ContentView.swift */; };
+		491A265DD987832837528A87 /* FirestoreExerciseService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55E8C27C6F4899A2087C7EC4 /* FirestoreExerciseService.swift */; };
+		4E9172E6BB196D584EFF74FD /* TrainingSession.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE294BE0790C98C35CA886EF /* TrainingSession.swift */; };
+		6FE3787B30D3E37DA69F7271 /* ForgotPasswordView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FD566417936E7D1B78A5ECD /* ForgotPasswordView.swift */; };
+		71BD669600A4CAC1E6A0235F /* CloudExerciseDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8F28EF09F371258E829EC70 /* CloudExerciseDetailView.swift */; };
+		891738FEB4242D906A81BB4A /* StatsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EC7BA9940C1CF52863DD169 /* StatsView.swift */; };
+		8AE7AC0A8B7E3D8631A8F400 /* DogProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CD6620DD513E6D0F0287D8D /* DogProfileView.swift */; };
+		8D03C32CA3A5703623D85E76 /* FirebaseAuth in Frameworks */ = {isa = PBXBuildFile; productRef = 189DB552E4BB85A4EB6909DC /* FirebaseAuth */; };
+		92D709AF67D0392EAED213D0 /* Exercise.swift in Sources */ = {isa = PBXBuildFile; fileRef = E384E3D7786A2149449A753A /* Exercise.swift */; };
+		9503379897680A388D9B0F66 /* AuthService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 991A19B01DFCC2F3C14355D4 /* AuthService.swift */; };
+		A4E6830F25B86DBE614878BD /* GoogleSignInSwift in Frameworks */ = {isa = PBXBuildFile; productRef = A6FFE745739812146FC85870 /* GoogleSignInSwift */; };
+		A74B01F7F9FE444128CC80E4 /* AddExerciseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7F2CE32F83C7BFE68AD2097 /* AddExerciseView.swift */; };
+		B6136EA1C18CE08280E2AE37 /* RootView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 048EEDF6F94D69C7D677CB58 /* RootView.swift */; };
+		BD9BDD89205068C49232A331 /* ArchivedExercisesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06A552169A6D0D4B7D2B5422 /* ArchivedExercisesView.swift */; };
+		C85890462642F6A13D11A6D5 /* VerifyEmailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6E6F6C4275B69897176AE9A /* VerifyEmailView.swift */; };
+		CD6C9CB36FF5B6483FAC83BE /* ExerciseCatalogView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35734DA7B5987AE9870ED8B3 /* ExerciseCatalogView.swift */; };
+		D73F9B312A8F653769E8B3DC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0B5BE2C8D51DE845A78AA1FE /* Assets.xcassets */; };
+		DB28B7783B224DA455E79B26 /* SeedExercises.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6288A00A79B91914CD52E124 /* SeedExercises.swift */; };
+		DD842C35556F79F0810C1F8B /* ProgressJournalView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8041A0DCF01CF154E3759814 /* ProgressJournalView.swift */; };
+		DFBFA753984B0EB7E07E836C /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 76644F992CC8DA57FD9CD4E4 /* GoogleService-Info.plist */; };
+		E1D21026C3EE7CE4FC62B2FD /* ExerciseDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 567F6A74D639BCF5D04638F5 /* ExerciseDetailView.swift */; };
+		E4420F23B26E2DAB1ADAA80D /* Dog.swift in Sources */ = {isa = PBXBuildFile; fileRef = B69DD5C8A1BCF542866A24CF /* Dog.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		048EEDF6F94D69C7D677CB58 /* RootView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootView.swift; sourceTree = "<group>"; };
+		06A552169A6D0D4B7D2B5422 /* ArchivedExercisesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArchivedExercisesView.swift; sourceTree = "<group>"; };
+		0B5BE2C8D51DE845A78AA1FE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		0DE7E3F8CCA53D77EA6D1CB3 /* DogOnboardingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DogOnboardingView.swift; sourceTree = "<group>"; };
+		21362F923031C3D3EE53E226 /* TrainyCatsDogsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrainyCatsDogsApp.swift; sourceTree = "<group>"; };
+		2CD6620DD513E6D0F0287D8D /* DogProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DogProfileView.swift; sourceTree = "<group>"; };
+		2DA9C1044B6C06F5714C2A1A /* Theme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Theme.swift; sourceTree = "<group>"; };
+		35734DA7B5987AE9870ED8B3 /* ExerciseCatalogView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExerciseCatalogView.swift; sourceTree = "<group>"; };
+		41124E484BF4E409C76080C0 /* TrainyCatsDogs.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TrainyCatsDogs.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4FD566417936E7D1B78A5ECD /* ForgotPasswordView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForgotPasswordView.swift; sourceTree = "<group>"; };
+		55E8C27C6F4899A2087C7EC4 /* FirestoreExerciseService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirestoreExerciseService.swift; sourceTree = "<group>"; };
+		567F6A74D639BCF5D04638F5 /* ExerciseDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExerciseDetailView.swift; sourceTree = "<group>"; };
+		6288A00A79B91914CD52E124 /* SeedExercises.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SeedExercises.swift; sourceTree = "<group>"; };
+		76644F992CC8DA57FD9CD4E4 /* GoogleService-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		8041A0DCF01CF154E3759814 /* ProgressJournalView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProgressJournalView.swift; sourceTree = "<group>"; };
+		991A19B01DFCC2F3C14355D4 /* AuthService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthService.swift; sourceTree = "<group>"; };
+		9EC17CF48FFB12B58ADA4A68 /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
+		9EC7BA9940C1CF52863DD169 /* StatsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatsView.swift; sourceTree = "<group>"; };
+		A1F456D1874CD296A0FEEC7B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		A6E6F6C4275B69897176AE9A /* VerifyEmailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VerifyEmailView.swift; sourceTree = "<group>"; };
+		B69DD5C8A1BCF542866A24CF /* Dog.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Dog.swift; sourceTree = "<group>"; };
+		CE294BE0790C98C35CA886EF /* TrainingSession.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrainingSession.swift; sourceTree = "<group>"; };
+		D7F2CE32F83C7BFE68AD2097 /* AddExerciseView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddExerciseView.swift; sourceTree = "<group>"; };
+		E384E3D7786A2149449A753A /* Exercise.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Exercise.swift; sourceTree = "<group>"; };
+		EC766178BE819B80F577B06A /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		F3EB5CA525C6E74DD13C8D0E /* TrainingSessionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrainingSessionView.swift; sourceTree = "<group>"; };
+		F8F28EF09F371258E829EC70 /* CloudExerciseDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CloudExerciseDetailView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EDB42B55A666CF2706F84E26 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D03C32CA3A5703623D85E76 /* FirebaseAuth in Frameworks */,
+				0F5497EAED55FB6533EFAB89 /* FirebaseCore in Frameworks */,
+				12CDF4ACFA6AE09A05920B1E /* FirebaseFirestore in Frameworks */,
+				066968B1DD99871CCFB77243 /* GoogleSignIn in Frameworks */,
+				A4E6830F25B86DBE614878BD /* GoogleSignInSwift in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0E3E403B7F74B1A865C21B9C /* TrainyCatsDogs */ = {
+			isa = PBXGroup;
+			children = (
+				0B5BE2C8D51DE845A78AA1FE /* Assets.xcassets */,
+				EC766178BE819B80F577B06A /* ContentView.swift */,
+				76644F992CC8DA57FD9CD4E4 /* GoogleService-Info.plist */,
+				A1F456D1874CD296A0FEEC7B /* Info.plist */,
+				21362F923031C3D3EE53E226 /* TrainyCatsDogsApp.swift */,
+				6DF6B6FF7E5B1220D7676765 /* Models */,
+				1F278E5E2988D754DC1ECEDB /* Resources */,
+				23DD0CDE31A0E4F957398960 /* Services */,
+				A9474A2C5C69DBCC13E8539E /* Theme */,
+				17C8710886754E357684B10D /* Views */,
+			);
+			path = TrainyCatsDogs;
+			sourceTree = "<group>";
+		};
+		17C8710886754E357684B10D /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				D7F2CE32F83C7BFE68AD2097 /* AddExerciseView.swift */,
+				06A552169A6D0D4B7D2B5422 /* ArchivedExercisesView.swift */,
+				F8F28EF09F371258E829EC70 /* CloudExerciseDetailView.swift */,
+				0DE7E3F8CCA53D77EA6D1CB3 /* DogOnboardingView.swift */,
+				2CD6620DD513E6D0F0287D8D /* DogProfileView.swift */,
+				35734DA7B5987AE9870ED8B3 /* ExerciseCatalogView.swift */,
+				567F6A74D639BCF5D04638F5 /* ExerciseDetailView.swift */,
+				8041A0DCF01CF154E3759814 /* ProgressJournalView.swift */,
+				048EEDF6F94D69C7D677CB58 /* RootView.swift */,
+				9EC7BA9940C1CF52863DD169 /* StatsView.swift */,
+				F3EB5CA525C6E74DD13C8D0E /* TrainingSessionView.swift */,
+				C76442B12BF81981C4C6C1A0 /* Auth */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		1F278E5E2988D754DC1ECEDB /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				6288A00A79B91914CD52E124 /* SeedExercises.swift */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		23DD0CDE31A0E4F957398960 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				991A19B01DFCC2F3C14355D4 /* AuthService.swift */,
+				55E8C27C6F4899A2087C7EC4 /* FirestoreExerciseService.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		3C278ABCF57CF467553B407A = {
+			isa = PBXGroup;
+			children = (
+				0E3E403B7F74B1A865C21B9C /* TrainyCatsDogs */,
+				9BE56221C1BAF573BB121F60 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		6DF6B6FF7E5B1220D7676765 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				B69DD5C8A1BCF542866A24CF /* Dog.swift */,
+				E384E3D7786A2149449A753A /* Exercise.swift */,
+				CE294BE0790C98C35CA886EF /* TrainingSession.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		9BE56221C1BAF573BB121F60 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				41124E484BF4E409C76080C0 /* TrainyCatsDogs.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A9474A2C5C69DBCC13E8539E /* Theme */ = {
+			isa = PBXGroup;
+			children = (
+				2DA9C1044B6C06F5714C2A1A /* Theme.swift */,
+			);
+			path = Theme;
+			sourceTree = "<group>";
+		};
+		C76442B12BF81981C4C6C1A0 /* Auth */ = {
+			isa = PBXGroup;
+			children = (
+				4FD566417936E7D1B78A5ECD /* ForgotPasswordView.swift */,
+				9EC17CF48FFB12B58ADA4A68 /* LoginView.swift */,
+				A6E6F6C4275B69897176AE9A /* VerifyEmailView.swift */,
+			);
+			path = Auth;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		38A7B215984D67B1AEF074A3 /* TrainyCatsDogs */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D5C85544C4130133E7C12D33 /* Build configuration list for PBXNativeTarget "TrainyCatsDogs" */;
+			buildPhases = (
+				6A90BAFFFD52BEFB0175D4A7 /* Sources */,
+				1E2B920635F25DAD175A7C2F /* Resources */,
+				EDB42B55A666CF2706F84E26 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TrainyCatsDogs;
+			packageProductDependencies = (
+				189DB552E4BB85A4EB6909DC /* FirebaseAuth */,
+				EFE85B5AF4A1A7A8E6757ED2 /* FirebaseCore */,
+				60005AE88DC92DACCD5D24BE /* FirebaseFirestore */,
+				265C0C5D5379DB3EE7220FBC /* GoogleSignIn */,
+				A6FFE745739812146FC85870 /* GoogleSignInSwift */,
+			);
+			productName = TrainyCatsDogs;
+			productReference = 41124E484BF4E409C76080C0 /* TrainyCatsDogs.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B46906647B0963DF6B67EC08 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastUpgradeCheck = 1430;
+			};
+			buildConfigurationList = 6E39F6A3BF3C2E6E7D0E1D06 /* Build configuration list for PBXProject "TrainyCatsDogs" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = 3C278ABCF57CF467553B407A;
+			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				94FB40B78383E677D1CD28A9 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
+				21FC3C898F2834839A701489 /* XCRemoteSwiftPackageReference "GoogleSignIn-iOS" */,
+			);
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 9BE56221C1BAF573BB121F60 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				38A7B215984D67B1AEF074A3 /* TrainyCatsDogs */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1E2B920635F25DAD175A7C2F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D73F9B312A8F653769E8B3DC /* Assets.xcassets in Resources */,
+				DFBFA753984B0EB7E07E836C /* GoogleService-Info.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6A90BAFFFD52BEFB0175D4A7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A74B01F7F9FE444128CC80E4 /* AddExerciseView.swift in Sources */,
+				BD9BDD89205068C49232A331 /* ArchivedExercisesView.swift in Sources */,
+				9503379897680A388D9B0F66 /* AuthService.swift in Sources */,
+				71BD669600A4CAC1E6A0235F /* CloudExerciseDetailView.swift in Sources */,
+				36C0A84C4548ED049D099257 /* ContentView.swift in Sources */,
+				E4420F23B26E2DAB1ADAA80D /* Dog.swift in Sources */,
+				0531CB268F4E215FE7FE7D69 /* DogOnboardingView.swift in Sources */,
+				8AE7AC0A8B7E3D8631A8F400 /* DogProfileView.swift in Sources */,
+				92D709AF67D0392EAED213D0 /* Exercise.swift in Sources */,
+				CD6C9CB36FF5B6483FAC83BE /* ExerciseCatalogView.swift in Sources */,
+				E1D21026C3EE7CE4FC62B2FD /* ExerciseDetailView.swift in Sources */,
+				491A265DD987832837528A87 /* FirestoreExerciseService.swift in Sources */,
+				6FE3787B30D3E37DA69F7271 /* ForgotPasswordView.swift in Sources */,
+				2BBC12B23C0C60E92FE2BC69 /* LoginView.swift in Sources */,
+				DD842C35556F79F0810C1F8B /* ProgressJournalView.swift in Sources */,
+				B6136EA1C18CE08280E2AE37 /* RootView.swift in Sources */,
+				DB28B7783B224DA455E79B26 /* SeedExercises.swift in Sources */,
+				891738FEB4242D906A81BB4A /* StatsView.swift in Sources */,
+				26DE6D173A0F3ECBBA2290DC /* Theme.swift in Sources */,
+				4E9172E6BB196D584EFF74FD /* TrainingSession.swift in Sources */,
+				11D4C713B078899FF477F538 /* TrainingSessionView.swift in Sources */,
+				2E1CA4D1444DD8B428674AEE /* TrainyCatsDogsApp.swift in Sources */,
+				C85890462642F6A13D11A6D5 /* VerifyEmailView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		1DA4B16BC31DB6A16FC07E90 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					"DEBUG=1",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		7921C5E374B61EE57739405B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = XNH8693FBT;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = TrainyCatsDogs/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 0.1;
+				PRODUCT_BUNDLE_IDENTIFIER = com.lisakochergina.trainycatsdogs;
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		D2B0C4BBA5E34AFDA7BEC6DA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = TrainyCatsDogs/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 0.1;
+				PRODUCT_BUNDLE_IDENTIFIER = com.lisakochergina.trainycatsdogs;
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		E6663308594C7B3920E09F08 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6E39F6A3BF3C2E6E7D0E1D06 /* Build configuration list for PBXProject "TrainyCatsDogs" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1DA4B16BC31DB6A16FC07E90 /* Debug */,
+				E6663308594C7B3920E09F08 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		D5C85544C4130133E7C12D33 /* Build configuration list for PBXNativeTarget "TrainyCatsDogs" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7921C5E374B61EE57739405B /* Debug */,
+				D2B0C4BBA5E34AFDA7BEC6DA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		21FC3C898F2834839A701489 /* XCRemoteSwiftPackageReference "GoogleSignIn-iOS" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/google/GoogleSignIn-iOS";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 7.1.0;
+			};
+		};
+		94FB40B78383E677D1CD28A9 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/firebase/firebase-ios-sdk";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 11.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		189DB552E4BB85A4EB6909DC /* FirebaseAuth */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 94FB40B78383E677D1CD28A9 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAuth;
+		};
+		265C0C5D5379DB3EE7220FBC /* GoogleSignIn */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 21FC3C898F2834839A701489 /* XCRemoteSwiftPackageReference "GoogleSignIn-iOS" */;
+			productName = GoogleSignIn;
+		};
+		60005AE88DC92DACCD5D24BE /* FirebaseFirestore */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 94FB40B78383E677D1CD28A9 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseFirestore;
+		};
+		A6FFE745739812146FC85870 /* GoogleSignInSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 21FC3C898F2834839A701489 /* XCRemoteSwiftPackageReference "GoogleSignIn-iOS" */;
+			productName = GoogleSignInSwift;
+		};
+		EFE85B5AF4A1A7A8E6757ED2 /* FirebaseCore */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 94FB40B78383E677D1CD28A9 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseCore;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = B46906647B0963DF6B67EC08 /* Project object */;
+}

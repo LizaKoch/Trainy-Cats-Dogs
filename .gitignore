@@ -1,0 +1,24 @@
+# Xcode
+*.xcodeproj/*
+!*.xcodeproj/project.pbxproj
+xcuserdata/
+*.xcuserstate
+DerivedData/
+.build/
+*.swiftpm
+.DS_Store
+
+# Секреты и данные, привязанные к конкретному Firebase-проекту —
+# у каждого, кто клонирует репозиторий, будет свой файл (см. README,
+# как получить свой GoogleService-Info.plist в консоли Firebase).
+TrainyCatsDogs/GoogleService-Info.plist
+.env
+.env.local
+*.env
+
+# Сертификаты и профили подписи — на случай, если когда-нибудь
+# окажутся экспортированы в файл рядом с проектом.
+*.p12
+*.pem
+*.mobileprovision
+*.cer
